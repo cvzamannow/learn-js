@@ -1,35 +1,18 @@
-// if else
-
-if ("kondisi pertama") {
-  //kode yang dijalankan ketika kondisi pertama true
-} else if ("kondisi kedua") {
-  //kode yang dijalankan ketika kondisi pertama false kemudian kondisi kedua true
+if ("kondisi") {
+  //apa yang mau dijalankan
+} else if ("konsidi2") {
+  //apa yang mau dijalankan
 } else {
-  //kode yang dijalankan ketika kondisi pertama dan kedua bernilai false
+  //kode yang mau dijalankan
 }
 
 const meetSchedule = 9;
-
-if (meetSchedule === 9) {
-  console.log("Ini meet pagi");
-} else if (meetSchedule === 13) {
-  console.log("Ini meet siang");
-} else {
-  console.log("Itu bukan jadwal meet");
-}
-
-const nurrInfo = {
-  name: "Nurrohman",
-  age: 18,
-  isBreakfast: false,
-  isMarried: false,
-};
 let answer;
 
-if (nurrInfo.isBreakfast === true) {
-  answer = "Apakah sarapanmu enak?";
+if (meetSchedule == 9) {
+  answer = "ini meet pagi kita";
+} else if (meetSchedule == 13) {
+  answer = "ini meet siang kita";
 } else {
-  answer = "Gimana kalau kita sarapan indomie goreng:)";
+  answer = "itu bukan jadwal meet kita";
 }
-
-console.log(answer);

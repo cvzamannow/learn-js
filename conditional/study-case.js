@@ -5,6 +5,18 @@
 //- kondisi kedua : cek apakah kurang dari 0
 //- ketika nilainya tidak lebih dari 0 dan juga tidak kurang dari 0
 //- buat dengan if else
+const value = 10;
+let answer;
+
+if (value > 0) {
+  answer = "ini adalah bilangan positif";
+} else if (value < 0) {
+  answer = "ini adalah bilangan negatif";
+} else if (value === 2) {
+  answer = "ini bukan bilangan positif dan negatif, ini adalah bilangan nol";
+} else {
+  answer = "ini salah";
+}
 
 //2. menentukan hari kerja dan hari libur
 /*
